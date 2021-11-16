@@ -1,0 +1,23 @@
+/******   hoja de estilo para ejercicio de la lluvia con patrón de fondo *****/
+
+body {background-color: pink;
+      margin:0;  /* si quiero borrar el espaciado de body hacia dentro */
+      padding:0; /* es habitual, pero no obligatorio */
+    }
+
+#container {background-image:url("../images/large-raindrops.jpg");
+            width:90%; /* para suavizar el efecto apaisado del monitor pc */
+            margin:auto;/* centra el bloque container con respecto a body */
+            padding:20px 0;
+            text-align:center;
+            font-family: 'Nothing You Could Do', cursive;
+            font-size:0.8em;
+            color:white;
+
+        }
+
+#poema {background-color:#6e785caf;
+        width:375px;
+        padding:10px;
+        margin:100px auto;}
+
